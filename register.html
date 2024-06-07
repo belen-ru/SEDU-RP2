@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio de Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Space+Grotesk:wght@300..700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header con logos y botón de registro -->
+    <header class="header-log">
+        <img src="/images/logo_coah2.png" alt="Logo Izquierda" class="logo-izquierda">
+        <div class="header-right">
+            <img src="/images/logo_sedu.png" alt="Logo Derecha" class="logo-derecha">
+             <!-- <button class="register-button">Registrarse</button> -->
+        </div>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="main-container">
+        <!-- Parte de la imagen -->
+        <div class="image-container">
+            <label>Generador de pruebas escritas.</label>
+            <img src="/images/img1.png" alt="Imagen de Login">
+        </div>
+
+        <!-- Parte del formulario -->
+        <div class="form-container-regis">
+            <h1>Registrate</h1>
+            <label>Porfavor, completa la informacíon para crear tu cuenta.</label>
+            <form action="#">
+
+                <div class="input-group-regis">
+                    <input type="username" id="username" required placeholder=" ">
+                    <label for="username">Usuario</label>
+                    <span class="error-message">Error en el nombre de usuario</span>
+                </div>
+                <div class="input-group-regis">
+                    <input type="fullname" id="fullname" required placeholder=" ">
+                    <label for="fullname">Nombre completo</label>
+                    <span class="error-message">Error en el nombre</span>
+                </div>
+                <div class="input-group-regis">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Correo</label>
+                    <span class="error-message">Error en el correo</span>
+                </div>
+                <div class="input-group-regis">
+                    <input type="password" id="password" required placeholder=" ">
+                    <label for="password">Crea tu contraseña</label>
+                    <span class="error-message">Error en la contraseña</span>
+                </div>
+               
+                <div class="div-btnCrear">
+                    <button id="crear-passw" type="submit">Crear cuenta</button>
+                <a href="/login.html">Ya tengo una cuenta</a>
+                </div>
+                
+                
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
